@@ -1,7 +1,7 @@
 // JS strings
 console.clear()
 var myFirstString = "I love JS"
-var mySecondString = "We'll earn JS"
+var mySecondString = "We'll learn JS"
 
 var doubleQuotesString = "This is a \"JavaScript\" string"      //Así se declara para poner comillas dentro de comilas
 var doubleQuotesString2 = 'This is a "JavaScript" string'
