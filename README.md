@@ -1,10 +1,10 @@
-# JavaScript---Basics-to-Advanced-step-by-step
+# JavaScript---Básico-a-Avanzado-paso-a-paso
 
-## This is a Step by Step to know the JavaScript Basics, hope you all like it c:
-
+## Este curso es un paso a paso para aprender JavaScript, espero que te guste c:
 -Kuro
 
 ### -Sección 1: Bases de JavaScript
 ### -Sección 2: Tipos de datos
+### -Sección 3: Declaraciones Condicionales
 
 
