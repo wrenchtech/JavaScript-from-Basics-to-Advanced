@@ -6,6 +6,6 @@
 ### -Sección 1: Bases de JavaScript
 ### -Sección 2: Tipos de datos
 ### -Sección 3: Declaraciones Condicionales
-### -Sección 4: Operaciones
+### -Sección 4: Operadores
 
 
