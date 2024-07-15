@@ -9,7 +9,3 @@
 ### -Sección 4: Operadores
 ### -Sección 5: Tipos de coerción
 
-
-
-
-
