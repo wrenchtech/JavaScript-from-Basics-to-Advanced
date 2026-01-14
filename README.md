@@ -47,27 +47,27 @@ LET'S <a href="https://www.youtube.com/watch?v=H6Q4s_ZdvAQ"  target="_blank">♫
 ---
 
 <div align="center">
-  <h2>SECTION 1</h2>
+  <h2><i>SECTION 1</i></h2>
 </div>
 
-<ol>
-  <li><a href="JS Course/Section 1/🧩 Lesson 1.1 — String Concatenation.js">🧩 Lesson 1 — String Concatenation</a></li>
+<ul>
+  <li><a href="JS Course/Section 1/🧩 Lesson 1.1 — String Concatenation.js">🧩 Lesson 1.1 — String Concatenation</a></li>
   <li><a href="JS Course/Section 1/🧩 Lesson 1.2 — Variables and Naming Conventions.js">🧩 Lesson 1.2 — Variables and Naming Conventions.js</a></li>
   <li>Lesson 1.3 – [Lesson Title]</li>
-</ol>
+</ul>
 
 ---
 
 <div align="center">
-  <h2>SECTION 2</h2>
+  <h2><i>SECTION 2</i></h2>
 </div>
 
-<ol>
+<ul>
   <li>Lesson 2.1 – [Lesson Title]</li>
   <li>Lesson 2.2 – [Lesson Title]</li>
   <li>Lesson 2.3 – [Lesson Title]</li>
   <li>Lesson 2.4 – [Lesson Title]</li>
-</ol>
+</ul>
 
 ---
 
