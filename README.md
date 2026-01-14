@@ -51,7 +51,7 @@ LET'S <a href="https://www.youtube.com/watch?v=H6Q4s_ZdvAQ"  target="_blank">♫
 </div>
 
 <ol>
-  <li>Lesson 1.1 – [Lesson Title]</li>
+  <li><a href="JS Course/Section 1/🧩 Lesson 1 — String Concatenation.js">Lesson 1.1 – [Lesson Title]</li>
   <li>Lesson 1.2 – [Lesson Title]</li>
   <li>Lesson 1.3 – [Lesson Title]</li>
 </ol>
