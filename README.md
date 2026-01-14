@@ -1,7 +1,3 @@
-<!-- ========================================= -->
-<!--           JAVASCRIPT COURSE README        -->
-<!-- ========================================= -->
-
 <h1 align="center">🚀 JavaScript Course</h1>
 
 <p align="center">
@@ -31,7 +27,7 @@ a strong foundation in programming logic, syntax, and real-world concepts.
 
 <hr>
 
-<h2>🗂 Course Index</h2>
+<h1>🗂 Course Index</h1>
 
 <p>
 Click on a section to jump directly to it.
@@ -44,7 +40,6 @@ Click on a section to jump directly to it.
   <li><a href="#section-4">Section 4: Functions</a></li>
   <li><a href="#section-5">Section 5: Data Structures</a></li>
   <li><a href="#section-6">Section 6: Advanced JavaScript</a></li>
-  <!-- Add more sections as needed -->
 </ul>
 
 <hr>
@@ -150,7 +145,7 @@ Click on a section to jump directly to it.
 
 <h2>✨ Final Notes</h2>
 
-<p>
+<p align="center">
 JavaScript is not about memorizing syntax — it's about understanding how
 programs think.
 </p>
