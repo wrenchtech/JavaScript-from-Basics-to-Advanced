@@ -53,7 +53,6 @@ LET'S <a href="https://www.youtube.com/watch?v=H6Q4s_ZdvAQ"  target="_blank">♫
 <ul>
   <li><a href="JS Course/Section 1/🧩 Lesson 1.1 — String Concatenation.js">🧩 Lesson 1.1 — String Concatenation</a></li>
   <li><a href="JS Course/Section 1/🧩 Lesson 1.2 — Variables and Naming Conventions.js">🧩 Lesson 1.2 — Variables and Naming Conventions.js</a></li>
-  <li>Lesson 1.3 – [Lesson Title]</li>
 </ul>
 
 ---
@@ -63,48 +62,8 @@ LET'S <a href="https://www.youtube.com/watch?v=H6Q4s_ZdvAQ"  target="_blank">♫
 </div>
 
 <ul>
-  <li>Lesson 2.1 – [Lesson Title]</li>
-  <li>Lesson 2.2 – [Lesson Title]</li>
-  <li>Lesson 2.3 – [Lesson Title]</li>
-  <li>Lesson 2.4 – [Lesson Title]</li>
+  <li><a href="JS Course/Section 2/🧩 Lesson 2.1 — Numbers and Basic Operations.js">🧩 Lesson 2.1 — Numbers and Basic Operations</li>
 </ul>
-
----
-
-<div align="center">
-  <h2>SECTION 3</h2>
-</div>
-
-<ol>
-  <li>Lesson 3.1 – [Lesson Title]</li>
-  <li>Lesson 3.2 – [Lesson Title]</li>
-  <li>Lesson 3.3 – [Lesson Title]</li>
-  <li>Lesson 3.4 – [Lesson Title]</li>
-</ol>
-
----
-
-<div align="center">
-  <h2>SECTION 4</h2>
-</div>
-
-<ol>
-  <li>Lesson 4.1 – [Lesson Title]</li>
-  <li>Lesson 4.2 – [Lesson Title]</li>
-  <li>Lesson 4.3 – [Lesson Title]</li>
-</ol>
-
----
-
-<div align="center">
-  <h2>SECTION 5</h2>
-</div>
-
-<ol>
-  <li>Lesson 5.1 – [Lesson Title]</li>
-  <li>Lesson 5.2 – [Lesson Title]</li>
-  <li>Lesson 5.3 – [Lesson Title]</li>
-</ol>
 
 ---
 
