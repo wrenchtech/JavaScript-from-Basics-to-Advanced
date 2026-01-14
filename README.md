@@ -1,252 +1,160 @@
-<!-- ===================== -->
-<!-- Global Styles -->
-<!-- ===================== -->
-<style>
-:root {
-  --bg: #0f172a;
-  --card: #020617;
-  --accent: #38bdf8;
-  --accent-soft: #0ea5e9;
-  --text: #e5e7eb;
-  --muted: #94a3b8;
-  --border: #1e293b;
-}
+<!-- ========================================= -->
+<!--           JAVASCRIPT COURSE README        -->
+<!-- ========================================= -->
 
-* {
-  box-sizing: border-box;
-}
+<h1 align="center">🚀 JavaScript Course</h1>
 
-body {
-  margin: 0;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  background: linear-gradient(180deg, #020617, #0f172a);
-  color: var(--text);
-  line-height: 1.6;
-}
+<p align="center">
+  Learn JavaScript from <strong>absolute beginner</strong> to <strong>advanced</strong>,
+  focusing on how the language works, not just how to use it.
+</p>
 
-a {
-  color: var(--accent);
-  text-decoration: none;
-}
+<p align="center">
+  <img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="300" alt="JavaScript animation">
+</p>
 
-header {
-  padding: 4rem 1.5rem 3rem;
-  text-align: center;
-  border-bottom: 1px solid var(--border);
-}
+<hr>
 
-header h1 {
-  font-size: 3rem;
-  margin-bottom: 0.5rem;
-  background: linear-gradient(90deg, #38bdf8, #22d3ee);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
+<h2>📌 About This Course</h2>
 
-header p {
-  max-width: 700px;
-  margin: 0 auto;
-  color: var(--muted);
-  font-size: 1.1rem;
-}
+<p>
+This repository contains a structured JavaScript course designed to build
+a strong foundation in programming logic, syntax, and real-world concepts.
+</p>
 
-.badge {
-  display: inline-block;
-  margin-top: 1.2rem;
-  padding: 0.4rem 0.9rem;
-  border-radius: 999px;
-  background: rgba(56, 189, 248, 0.1);
-  border: 1px solid var(--accent-soft);
-  color: var(--accent);
-  font-size: 0.9rem;
-}
+<ul>
+  <li>🧠 Core language concepts</li>
+  <li>📚 Progressive lessons</li>
+  <li>🛠 Hands-on examples</li>
+  <li>🎯 Beginner → Advanced</li>
+</ul>
 
-main {
-  max-width: 1100px;
-  margin: auto;
-  padding: 3rem 1.5rem;
-}
+<hr>
 
-section {
-  margin-bottom: 4rem;
-}
+<h2>🗂 Course Index</h2>
 
-h2 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-  border-left: 4px solid var(--accent);
-  padding-left: 0.8rem;
-}
+<p>
+Click on a section to jump directly to it.
+</p>
 
-.card {
-  background: rgba(2, 6, 23, 0.8);
-  border: 1px solid var(--border);
-  border-radius: 14px;
-  padding: 1.5rem;
-}
+<ul>
+  <li><a href="#section-1">Section 1: Introduction</a></li>
+  <li><a href="#section-2">Section 2: Variables & Data Types</a></li>
+  <li><a href="#section-3">Section 3: Logic & Control Flow</a></li>
+  <li><a href="#section-4">Section 4: Functions</a></li>
+  <li><a href="#section-5">Section 5: Data Structures</a></li>
+  <li><a href="#section-6">Section 6: Advanced JavaScript</a></li>
+  <!-- Add more sections as needed -->
+</ul>
 
-.toc-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 1.2rem;
-}
+<hr>
 
-.toc-card {
-  background: #020617;
-  border: 1px solid var(--border);
-  border-radius: 16px;
-  padding: 1.2rem 1.3rem;
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
-}
+<!-- ========================================= -->
+<!--               SECTION 1                   -->
+<!-- ========================================= -->
 
-.toc-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
-}
+<h2 id="section-1">📘 Section 1: Introduction</h2>
 
-.toc-card h3 {
-  margin-top: 0;
-  color: var(--accent);
-}
+<ul>
+  <li>Lesson 1.1 – [Lesson Title]</li>
+  <li>Lesson 1.2 – [Lesson Title]</li>
+  <li>Lesson 1.3 – [Lesson Title]</li>
+</ul>
 
-ul {
-  padding-left: 1.2rem;
-}
+<p>
+  <img src="https://media.giphy.com/media/f3iwJFOVOwuy7K6FFw/giphy.gif" width="250">
+</p>
 
-li {
-  margin: 0.4rem 0;
-  color: var(--muted);
-}
+<hr>
 
-footer {
-  border-top: 1px solid var(--border);
-  text-align: center;
-  padding: 2.5rem 1.5rem;
-  color: var(--muted);
-  font-size: 0.9rem;
-}
+<!-- ========================================= -->
+<!--               SECTION 2                   -->
+<!-- ========================================= -->
 
-footer span {
-  color: var(--accent);
-}
-</style>
+<h2 id="section-2">📗 Section 2: Variables & Data Types</h2>
 
-<!-- ===================== -->
-<!-- Header -->
-<!-- ===================== -->
-<header>
-  <h1>JavaScript Course</h1>
-  <p>
-    A structured and progressive JavaScript course focused on core language concepts,
-    problem solving, and real-world logic — not just web development.
-  </p>
-  <div class="badge">Beginner → Intermediate → Advanced</div>
-</header>
+<ul>
+  <li>Lesson 2.1 – [Lesson Title]</li>
+  <li>Lesson 2.2 – [Lesson Title]</li>
+  <li>Lesson 2.3 – [Lesson Title]</li>
+</ul>
 
-<!-- ===================== -->
-<!-- Main Content -->
-<!-- ===================== -->
-<main>
+<hr>
 
-  <!-- About -->
-  <section>
-    <h2>About This Course</h2>
-    <div class="card">
-      <p>
-        This course is designed to help you truly understand JavaScript as a programming language.
-        You will learn how JavaScript works, how to think like a developer, and how to apply the language
-        beyond simple use cases.
-      </p>
-      <ul>
-        <li>Language fundamentals and mental models</li>
-        <li>Logic, control flow, and data handling</li>
-        <li>Modern JavaScript features</li>
-        <li>Hands-on exercises and challenges</li>
-      </ul>
-    </div>
-  </section>
+<!-- ========================================= -->
+<!--               SECTION 3                   -->
+<!-- ========================================= -->
 
-  <!-- Course Index -->
-  <section>
-    <h2>Course Index</h2>
+<h2 id="section-3">📙 Section 3: Logic & Control Flow</h2>
 
-    <div class="toc-grid">
+<ul>
+  <li>Lesson 3.1 – [Lesson Title]</li>
+  <li>Lesson 3.2 – [Lesson Title]</li>
+  <li>Lesson 3.3 – [Lesson Title]</li>
+</ul>
 
-      <div class="toc-card">
-        <h3>Section 1: Introduction</h3>
-        <ul>
-          <li>Lesson 1.1 – What Is JavaScript?</li>
-          <li>Lesson 1.2 – How JavaScript Works</li>
-          <li>Lesson 1.3 – Running JavaScript</li>
-        </ul>
-      </div>
+<hr>
 
-      <div class="toc-card">
-        <h3>Section 2: JavaScript Basics</h3>
-        <ul>
-          <li>Lesson 2.1 – Variables</li>
-          <li>Lesson 2.2 – Data Types</li>
-          <li>Lesson 2.3 – Operators</li>
-        </ul>
-      </div>
+<!-- ========================================= -->
+<!--               SECTION 4                   -->
+<!-- ========================================= -->
 
-      <div class="toc-card">
-        <h3>Section 3: Control Flow & Logic</h3>
-        <ul>
-          <li>Lesson 3.1 – Conditions</li>
-          <li>Lesson 3.2 – Loops</li>
-          <li>Lesson 3.3 – Logical Thinking</li>
-        </ul>
-      </div>
+<h2 id="section-4">📕 Section 4: Functions</h2>
 
-      <div class="toc-card">
-        <h3>Section 4: Data Structures</h3>
-        <ul>
-          <li>Lesson 4.1 – Arrays</li>
-          <li>Lesson 4.2 – Objects</li>
-          <li>Lesson 4.3 – Nested Data</li>
-        </ul>
-      </div>
+<ul>
+  <li>Lesson 4.1 – [Lesson Title]</li>
+  <li>Lesson 4.2 – [Lesson Title]</li>
+  <li>Lesson 4.3 – [Lesson Title]</li>
+</ul>
 
-      <div class="toc-card">
-        <h3>Section 5: Functions & Scope</h3>
-        <ul>
-          <li>Lesson 5.1 – Functions</li>
-          <li>Lesson 5.2 – Parameters & Return</li>
-          <li>Lesson 5.3 – Scope & Closures</li>
-        </ul>
-      </div>
+<hr>
 
-      <div class="toc-card">
-        <h3>Section 6: Advanced Concepts</h3>
-        <ul>
-          <li>Lesson 6.1 – Asynchronous JavaScript</li>
-          <li>Lesson 6.2 – Error Handling</li>
-          <li>Lesson 6.3 – Clean Code Principles</li>
-        </ul>
-      </div>
+<!-- ========================================= -->
+<!--               SECTION 5                   -->
+<!-- ========================================= -->
 
-    </div>
-  </section>
+<h2 id="section-5">📓 Section 5: Data Structures</h2>
 
-  <!-- How to use -->
-  <section>
-    <h2>How to Use This Repository</h2>
-    <div class="card">
-      <ul>
-        <li>Follow the sections in order</li>
-        <li>Each lesson builds on the previous one</li>
-        <li>Practice by modifying the examples</li>
-        <li>Focus on understanding, not memorizing</li>
-      </ul>
-    </div>
-  </section>
+<ul>
+  <li>Lesson 5.1 – [Lesson Title]</li>
+  <li>Lesson 5.2 – [Lesson Title]</li>
+  <li>Lesson 5.3 – [Lesson Title]</li>
+</ul>
 
-</main>
+<hr>
 
-<!-- ===================== -->
-<!-- Footer -->
-<!-- ===================== -->
-<footer>
-  Built with ❤️ by <span>Kuro</span> • JavaScript Course
-</footer>
+<!-- ========================================= -->
+<!--               SECTION 6                   -->
+<!-- ========================================= -->
+
+<h2 id="section-6">📒 Section 6: Advanced JavaScript</h2>
+
+<ul>
+  <li>Lesson 6.1 – [Lesson Title]</li>
+  <li>Lesson 6.2 – [Lesson Title]</li>
+  <li>Lesson 6.3 – [Lesson Title]</li>
+</ul>
+
+<hr>
+
+<h2>🛠 How to Use This Repository</h2>
+
+<ul>
+  <li>Follow the sections in order</li>
+  <li>Read the code carefully</li>
+  <li>Experiment and modify examples</li>
+  <li>Practice is essential</li>
+</ul>
+
+<hr>
+
+<h2>✨ Final Notes</h2>
+
+<p>
+JavaScript is not about memorizing syntax — it's about understanding how
+programs think.
+</p>
+
+<p align="center">
+  Built with ❤️ by <strong>Kuro</strong>
+</p>
