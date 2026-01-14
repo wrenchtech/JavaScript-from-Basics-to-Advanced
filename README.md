@@ -1,277 +1,240 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>JavaScript Course</title>
+<style>
+  :root {
+    --bg: #0f172a;
+    --card: #020617;
+    --accent: #38bdf8;
+    --accent-soft: #0ea5e9;
+    --text: #e5e7eb;
+    --muted: #94a3b8;
+    --border: #1e293b;
+  }
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  * {
+    box-sizing: border-box;
+  }
 
-  <style>
-    :root {
-      --bg: #0f172a;
-      --card: #020617;
-      --accent: #38bdf8;
-      --accent-soft: #0ea5e9;
-      --text: #e5e7eb;
-      --muted: #94a3b8;
-      --border: #1e293b;
-    }
+  body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: linear-gradient(180deg, #020617, #0f172a);
+    color: var(--text);
+    line-height: 1.6;
+  }
 
-    * {
-      box-sizing: border-box;
-      scroll-behavior: smooth;
-    }
+  a {
+    color: var(--accent);
+    text-decoration: none;
+  }
 
-    body {
-      margin: 0;
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      background: linear-gradient(180deg, #020617, #0f172a);
-      color: var(--text);
-      line-height: 1.6;
-    }
+  header {
+    padding: 4rem 1.5rem 3rem;
+    text-align: center;
+    border-bottom: 1px solid var(--border);
+  }
 
-    a {
-      color: var(--accent);
-      text-decoration: none;
-    }
+  header h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    background: linear-gradient(90deg, #38bdf8, #22d3ee);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 
-    a:hover {
-      text-decoration: underline;
-    }
+  header p {
+    max-width: 700px;
+    margin: 0 auto;
+    color: var(--muted);
+    font-size: 1.1rem;
+  }
 
-    header {
-      padding: 4rem 1.5rem 3rem;
-      text-align: center;
-      border-bottom: 1px solid var(--border);
-    }
+  .badge {
+    display: inline-block;
+    margin-top: 1.2rem;
+    padding: 0.4rem 0.9rem;
+    border-radius: 999px;
+    background: rgba(56, 189, 248, 0.1);
+    border: 1px solid var(--accent-soft);
+    color: var(--accent);
+    font-size: 0.9rem;
+  }
 
-    header h1 {
-      font-size: 3rem;
-      margin-bottom: 0.5rem;
-      background: linear-gradient(90deg, #38bdf8, #22d3ee);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
+  main {
+    max-width: 1100px;
+    margin: auto;
+    padding: 3rem 1.5rem;
+  }
 
-    header p {
-      max-width: 700px;
-      margin: 0 auto;
-      color: var(--muted);
-      font-size: 1.1rem;
-    }
+  section {
+    margin-bottom: 4rem;
+  }
 
-    .badge {
-      display: inline-block;
-      margin-top: 1.2rem;
-      padding: 0.4rem 0.9rem;
-      border-radius: 999px;
-      background: rgba(56, 189, 248, 0.1);
-      border: 1px solid var(--accent-soft);
-      color: var(--accent);
-      font-size: 0.9rem;
-    }
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    border-left: 4px solid var(--accent);
+    padding-left: 0.8rem;
+  }
 
-    main {
-      max-width: 1100px;
-      margin: auto;
-      padding: 3rem 1.5rem;
-    }
+  .card {
+    background: rgba(2, 6, 23, 0.8);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 1.5rem;
+    margin-top: 1.5rem;
+  }
 
-    section {
-      margin-bottom: 4rem;
-    }
+  .toc-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.2rem;
+  }
 
-    h2 {
-      font-size: 2rem;
-      margin-bottom: 1rem;
-      border-left: 4px solid var(--accent);
-      padding-left: 0.8rem;
-    }
+  .toc-card {
+    background: #020617;
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 1.2rem 1.3rem;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+  }
 
-    .card {
-      background: rgba(2, 6, 23, 0.8);
-      border: 1px solid var(--border);
-      border-radius: 14px;
-      padding: 1.5rem;
-      margin-top: 1.5rem;
-    }
+  .toc-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+  }
 
-    .toc-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 1.2rem;
-    }
+  .toc-card h3 {
+    margin-top: 0;
+    color: var(--accent);
+  }
 
-    .toc-card {
-      background: linear-gradient(180deg, #020617, #020617);
-      border: 1px solid var(--border);
-      border-radius: 16px;
-      padding: 1.2rem 1.3rem;
-      transition: transform 0.25s ease, box-shadow 0.25s ease;
-    }
+  ul {
+    padding-left: 1.2rem;
+  }
 
-    .toc-card:hover {
-      transform: translateY(-6px);
-      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
-    }
+  li {
+    margin: 0.4rem 0;
+    color: var(--muted);
+  }
 
-    .toc-card h3 {
-      margin-top: 0;
-      color: var(--accent);
-    }
+  footer {
+    border-top: 1px solid var(--border);
+    text-align: center;
+    padding: 2.5rem 1.5rem;
+    color: var(--muted);
+    font-size: 0.9rem;
+  }
 
-    ul {
-      padding-left: 1.2rem;
-    }
+  footer span {
+    color: var(--accent);
+  }
+</style>
 
-    li {
-      margin: 0.4rem 0;
-      color: var(--muted);
-    }
+<header>
+  <h1>JavaScript Course</h1>
+  <p>
+    A structured and progressive JavaScript course focused on
+    <strong>core language concepts</strong>, problem solving,
+    and real-world logic — not just web development.
+  </p>
+  <div class="badge">Beginner → Intermediate → Advanced</div>
+</header>
 
-    footer {
-      border-top: 1px solid var(--border);
-      text-align: center;
-      padding: 2.5rem 1.5rem;
-      color: var(--muted);
-      font-size: 0.9rem;
-    }
+<main>
 
-    footer span {
-      color: var(--accent);
-    }
-  </style>
-</head>
-
-<body>
-
-  <!-- ================= HEADER ================= -->
-  <header>
-    <h1>JavaScript Course</h1>
+<section id="about">
+  <h2>About This Course</h2>
+  <div class="card">
     <p>
-      A structured and progressive JavaScript course focused on
-      <strong>core language concepts</strong>, problem solving,
-      and real-world logic — not just web development.
+      This course is designed to help you truly understand JavaScript
+      as a programming language. You will learn how JavaScript works,
+      how to think like a developer, and how to apply the language
+      beyond simple use cases.
     </p>
+    <ul>
+      <li>Language fundamentals and mental models</li>
+      <li>Logic, control flow, and data handling</li>
+      <li>Modern JavaScript features</li>
+      <li>Hands-on exercises and challenges</li>
+    </ul>
+  </div>
+</section>
 
-    <div class="badge">Beginner → Intermediate → Advanced</div>
-  </header>
+<section id="toc">
+  <h2>Course Index</h2>
 
-  <main>
+  <div class="toc-grid">
 
-    <!-- ================= ABOUT ================= -->
-    <section id="about">
-      <h2>About This Course</h2>
-      <div class="card">
-        <p>
-          This course is designed to help you truly understand JavaScript
-          as a programming language. You will learn how JavaScript works
-          internally, how to think like a developer, and how to apply
-          the language in different environments and scenarios.
-        </p>
+    <div class="toc-card">
+      <h3>Section 1: Introduction</h3>
+      <ul>
+        <li>Lesson 1.1 – [Lesson Title]</li>
+        <li>Lesson 1.2 – [Lesson Title]</li>
+        <li>Lesson 1.3 – [Lesson Title]</li>
+      </ul>
+    </div>
 
-        <!-- Optional bullet points -->
-        <ul>
-          <li>Language fundamentals and mental models</li>
-          <li>Logic, control flow, and data handling</li>
-          <li>Modern JavaScript features</li>
-          <li>Practical exercises and challenges</li>
-        </ul>
-      </div>
-    </section>
+    <div class="toc-card">
+      <h3>Section 2: JavaScript Basics</h3>
+      <ul>
+        <li>Lesson 2.1 – [Lesson Title]</li>
+        <li>Lesson 2.2 – [Lesson Title]</li>
+        <li>Lesson 2.3 – [Lesson Title]</li>
+      </ul>
+    </div>
 
-    <!-- ================= TABLE OF CONTENTS ================= -->
-    <section id="toc">
-      <h2>Course Index</h2>
+    <div class="toc-card">
+      <h3>Section 3: Control Flow & Logic</h3>
+      <ul>
+        <li>Lesson 3.1 – [Lesson Title]</li>
+        <li>Lesson 3.2 – [Lesson Title]</li>
+        <li>Lesson 3.3 – [Lesson Title]</li>
+      </ul>
+    </div>
 
-      <div class="toc-grid">
+    <div class="toc-card">
+      <h3>Section 4: Data Structures</h3>
+      <ul>
+        <li>Lesson 4.1 – [Lesson Title]</li>
+        <li>Lesson 4.2 – [Lesson Title]</li>
+        <li>Lesson 4.3 – [Lesson Title]</li>
+      </ul>
+    </div>
 
-        <!-- ===== SECTION 1 ===== -->
-        <div class="toc-card">
-          <h3>Section 1: Introduction</h3>
-          <ul>
-            <li>Lesson 1.1 – [Lesson Title]</li>
-            <li>Lesson 1.2 – [Lesson Title]</li>
-            <li>Lesson 1.3 – [Lesson Title]</li>
-          </ul>
-        </div>
+    <div class="toc-card">
+      <h3>Section 5: Functions & Scope</h3>
+      <ul>
+        <li>Lesson 5.1 – [Lesson Title]</li>
+        <li>Lesson 5.2 – [Lesson Title]</li>
+        <li>Lesson 5.3 – [Lesson Title]</li>
+      </ul>
+    </div>
 
-        <!-- ===== SECTION 2 ===== -->
-        <div class="toc-card">
-          <h3>Section 2: JavaScript Basics</h3>
-          <ul>
-            <li>Lesson 2.1 – [Lesson Title]</li>
-            <li>Lesson 2.2 – [Lesson Title]</li>
-            <li>Lesson 2.3 – [Lesson Title]</li>
-          </ul>
-        </div>
+    <div class="toc-card">
+      <h3>Section 6: Advanced Concepts</h3>
+      <ul>
+        <li>Lesson 6.1 – [Lesson Title]</li>
+        <li>Lesson 6.2 – [Lesson Title]</li>
+        <li>Lesson 6.3 – [Lesson Title]</li>
+      </ul>
+    </div>
 
-        <!-- ===== SECTION 3 ===== -->
-        <div class="toc-card">
-          <h3>Section 3: Control Flow & Logic</h3>
-          <ul>
-            <li>Lesson 3.1 – [Lesson Title]</li>
-            <li>Lesson 3.2 – [Lesson Title]</li>
-            <li>Lesson 3.3 – [Lesson Title]</li>
-          </ul>
-        </div>
+  </div>
+</section>
 
-        <!-- ===== SECTION 4 ===== -->
-        <div class="toc-card">
-          <h3>Section 4: Data Structures</h3>
-          <ul>
-            <li>Lesson 4.1 – [Lesson Title]</li>
-            <li>Lesson 4.2 – [Lesson Title]</li>
-            <li>Lesson 4.3 – [Lesson Title]</li>
-          </ul>
-        </div>
+<section id="usage">
+  <h2>How to Use This Repository</h2>
+  <div class="card">
+    <ul>
+      <li>Follow the sections in order</li>
+      <li>Each lesson builds on the previous one</li>
+      <li>Practice by modifying the examples</li>
+      <li>Focus on understanding, not memorizing</li>
+    </ul>
+  </div>
+</section>
 
-        <!-- ===== SECTION 5 ===== -->
-        <div class="toc-card">
-          <h3>Section 5: Functions & Scope</h3>
-          <ul>
-            <li>Lesson 5.1 – [Lesson Title]</li>
-            <li>Lesson 5.2 – [Lesson Title]</li>
-            <li>Lesson 5.3 – [Lesson Title]</li>
-          </ul>
-        </div>
+</main>
 
-        <!-- ===== SECTION 6 ===== -->
-        <div class="toc-card">
-          <h3>Section 6: Advanced Concepts</h3>
-          <ul>
-            <li>Lesson 6.1 – [Lesson Title]</li>
-            <li>Lesson 6.2 – [Lesson Title]</li>
-            <li>Lesson 6.3 – [Lesson Title]</li>
-          </ul>
-        </div>
-
-        <!-- ===== ADD MORE SECTIONS AS NEEDED ===== -->
-
-      </div>
-    </section>
-
-    <!-- ================= HOW TO USE ================= -->
-    <section id="usage">
-      <h2>How to Use This Repository</h2>
-      <div class="card">
-        <ul>
-          <li>Navigate through the sections in order</li>
-          <li>Each lesson contains explanations and exercises</li>
-          <li>Practice is highly encouraged</li>
-          <li>Experiment and modify the code freely</li>
-        </ul>
-      </div>
-    </section>
-
-  </main>
-
-  <!-- ================= FOOTER ================= -->
-  <footer>
-    <p>
-      Built with ❤️ by <span>Kuro</span> • JavaScript Course
-    </p>
-  </footer>
-
-</body>
-</html>
+<footer>
+  <p>Built with ❤️ by <span>Kuro</span> • JavaScript Course</p>
+</footer>
