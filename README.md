@@ -28,7 +28,7 @@ Want to learn HTML or CSS first? Check my other repositories
 <br>
 
 <p align="center">
-LET'S <a href="https://www.youtube.com/watch?v=H6Q4s_ZdvAQ">♫</a> GRIND 🚀
+LET'S <a target="_blank" href="https://www.youtube.com/watch?v=H6Q4s_ZdvAQ">♫</a> GRIND 🚀
 </p>
 
 ---
