@@ -1,155 +1,126 @@
-<h1 align="center">🚀 JavaScript Course</h1>
+<div align="center">
+
+<h1 style="font-weight:normal">
+  <img src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" width="35" />
+  &nbsp; Welcome to the JavaScript Course Repository &nbsp;
+  <img src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" width="35" />
+</h1>
+
+</div>
+
+<div align="center">
+  <img height="120" src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif">
+</div>
+
+<br>
 
 <p align="center">
-  Learn JavaScript from <strong>absolute beginner</strong> to <strong>advanced</strong>,
-  focusing on how the language works, not just how to use it.
+Here you will find everything you need to learn <b>JavaScript</b> from
+<strong>absolute beginner</strong> to <strong>advanced concepts</strong>.<br>
+This course focuses on understanding the language itself, logic, and problem-solving.
 </p>
 
 <p align="center">
-  <img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="300" alt="JavaScript animation">
+Want to learn HTML or CSS first? Check my other repositories
+<a href="https://github.com/wrenchtech">here</a>.
 </p>
 
-<hr>
+<br>
 
-<h2>📌 About This Course</h2>
-
-<p>
-This repository contains a structured JavaScript course designed to build
-a strong foundation in programming logic, syntax, and real-world concepts.
+<p align="center">
+LET'S <a href="https://www.youtube.com/watch?v=H6Q4s_ZdvAQ">♫</a> GRIND 🚀
 </p>
 
-<ul>
-  <li>🧠 Core language concepts</li>
-  <li>📚 Progressive lessons</li>
-  <li>🛠 Hands-on examples</li>
-  <li>🎯 Beginner → Advanced</li>
-</ul>
+---
 
-<hr>
+<div align="center">
+  <h1>INTRODUCTION</h1>
+</div>
 
-<h1>🗂 Course Index</h1>
+<div align="center">
+  <p>
+    What is JavaScript? How does it work? Where is it used?<br>
+    This section sets the foundation for the entire course.
+  </p>
+</div>
 
-<p>
-Click on a section to jump directly to it.
-</p>
+---
 
-<ul>
-  <li><a href="#section-1">Section 1: Introduction</a></li>
-  <li><a href="#section-2">Section 2: Variables & Data Types</a></li>
-  <li><a href="#section-3">Section 3: Logic & Control Flow</a></li>
-  <li><a href="#section-4">Section 4: Functions</a></li>
-  <li><a href="#section-5">Section 5: Data Structures</a></li>
-  <li><a href="#section-6">Section 6: Advanced JavaScript</a></li>
-</ul>
+<div align="center">
+  <h2>SECTION 1</h2>
+</div>
 
-<hr>
-
-<!-- ========================================= -->
-<!--               SECTION 1                   -->
-<!-- ========================================= -->
-
-<h2 id="section-1">📘 Section 1: Introduction</h2>
-
-<ul>
+<ol>
   <li>Lesson 1.1 – [Lesson Title]</li>
   <li>Lesson 1.2 – [Lesson Title]</li>
   <li>Lesson 1.3 – [Lesson Title]</li>
-</ul>
+</ol>
 
-<p>
-  <img src="https://media.giphy.com/media/f3iwJFOVOwuy7K6FFw/giphy.gif" width="250">
-</p>
+---
 
-<hr>
+<div align="center">
+  <h2>SECTION 2</h2>
+</div>
 
-<!-- ========================================= -->
-<!--               SECTION 2                   -->
-<!-- ========================================= -->
-
-<h2 id="section-2">📗 Section 2: Variables & Data Types</h2>
-
-<ul>
+<ol>
   <li>Lesson 2.1 – [Lesson Title]</li>
   <li>Lesson 2.2 – [Lesson Title]</li>
   <li>Lesson 2.3 – [Lesson Title]</li>
-</ul>
+  <li>Lesson 2.4 – [Lesson Title]</li>
+</ol>
 
-<hr>
+---
 
-<!-- ========================================= -->
-<!--               SECTION 3                   -->
-<!-- ========================================= -->
+<div align="center">
+  <h2>SECTION 3</h2>
+</div>
 
-<h2 id="section-3">📙 Section 3: Logic & Control Flow</h2>
-
-<ul>
+<ol>
   <li>Lesson 3.1 – [Lesson Title]</li>
   <li>Lesson 3.2 – [Lesson Title]</li>
   <li>Lesson 3.3 – [Lesson Title]</li>
-</ul>
+  <li>Lesson 3.4 – [Lesson Title]</li>
+</ol>
 
-<hr>
+---
 
-<!-- ========================================= -->
-<!--               SECTION 4                   -->
-<!-- ========================================= -->
+<div align="center">
+  <h2>SECTION 4</h2>
+</div>
 
-<h2 id="section-4">📕 Section 4: Functions</h2>
-
-<ul>
+<ol>
   <li>Lesson 4.1 – [Lesson Title]</li>
   <li>Lesson 4.2 – [Lesson Title]</li>
   <li>Lesson 4.3 – [Lesson Title]</li>
-</ul>
+</ol>
 
-<hr>
+---
 
-<!-- ========================================= -->
-<!--               SECTION 5                   -->
-<!-- ========================================= -->
+<div align="center">
+  <h2>SECTION 5</h2>
+</div>
 
-<h2 id="section-5">📓 Section 5: Data Structures</h2>
-
-<ul>
+<ol>
   <li>Lesson 5.1 – [Lesson Title]</li>
   <li>Lesson 5.2 – [Lesson Title]</li>
   <li>Lesson 5.3 – [Lesson Title]</li>
-</ul>
+</ol>
 
-<hr>
+---
 
-<!-- ========================================= -->
-<!--               SECTION 6                   -->
-<!-- ========================================= -->
+<div align="center">
+  <img height="200"
+    src="https://media.giphy.com/media/l0HlNQ03J5JxX6lva/giphy.gif" />
+</div>
 
-<h2 id="section-6">📒 Section 6: Advanced JavaScript</h2>
+<br>
 
-<ul>
-  <li>Lesson 6.1 – [Lesson Title]</li>
-  <li>Lesson 6.2 – [Lesson Title]</li>
-  <li>Lesson 6.3 – [Lesson Title]</li>
-</ul>
-
-<hr>
-
-<h2>🛠 How to Use This Repository</h2>
-
-<ul>
-  <li>Follow the sections in order</li>
-  <li>Read the code carefully</li>
-  <li>Experiment and modify examples</li>
-  <li>Practice is essential</li>
-</ul>
-
-<hr>
-
-<h2>✨ Final Notes</h2>
-
-<p align="center">
-JavaScript is not about memorizing syntax — it's about understanding how
-programs think.
-</p>
-
-<p align="center">
-  Built with ❤️ by <strong>Kuro</strong>
-</p>
+<div align="center">
+  <p>
+    Built step by step.<br>
+    Learn the language, not just the syntax.
+  </p>
+  <p>
+    <b>JavaScript Course</b> • by Kuro
+  </p>
+</div>
