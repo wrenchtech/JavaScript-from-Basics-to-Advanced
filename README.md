@@ -63,6 +63,9 @@ LET'S <a href="https://www.youtube.com/watch?v=H6Q4s_ZdvAQ"  target="_blank">♫
 
 <ul>
   <li><a href="JS Course/Section 2/🧩 Lesson 2.1 — Numbers and Basic Operations.js">🧩 Lesson 2.1 — Numbers and Basic Operations</li>
+  <li><a href="JS Course/Section 2/🧩 Lesson 2.2 — Number Conversion Functions.js">🧩 Lesson 2.2 — Number Conversion Functions</li>
+  <li><a href="JS Course/Section 2/🧩 Lesson 2.3 — Strings and Quotes in JavaScript.js">🧩 Lesson 2.3 — Strings and Quotes in JavaScript</li>
+  <li><a href="JS Course/Section 2/🧩 Lesson 2.4 — String Functions and Methods.js">🧩 Lesson 2.4 — String Functions and Methods</li>
 </ul>
 
 ---
